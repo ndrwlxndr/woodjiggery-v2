@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WoodJiggery</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html" aria-label="WoodJiggery home">
+      <div class="logo-badge" aria-hidden="true">
+        <img src="assets/img/woodjiggeryblack.svg" alt="" />
+      </div>
+      <div class="brand-text">
+        <div class="brand-name">WoodJiggery</div>
+        <div class="brand-sub">Custom woodworking • Small-batch builds • Commissions</div>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="creations.html">Creations</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn primary" href="contact.html">Request a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="card">
+        <div class="card-pad">
+          <div class="kicker">Workshop-built • Colorado</div>
+          <h1 class="h1">Jigs, fixtures, and small-batch builds that make your shop better.</h1>
+          <p class="p">
+            Purpose-built woodworking jigs, accessories, and custom pieces — designed for repeatability,
+            accuracy, and that “why didn’t I have this sooner” feeling.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="creations.html">Browse creations</a>
+            <a class="btn" href="contact.html">Get a custom quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-pad">
+          <div class="kicker">What I build</div>
+          <div class="feature-list">
+            <div class="feature">
+              <b>Shop Jigs</b>
+              <span>Repeatable cuts, safer setups, better results.</span>
+            </div>
+            <div class="feature">
+              <b>Small Products</b>
+              <span>High-end, shippable pieces with clean joinery.</span>
+            </div>
+            <div class="feature">
+              <b>Commissions</b>
+              <span>Let’s design something that fits your workflow.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="tiles" aria-label="Featured work">
+      <div class="tile"><div class="cap">Featured: Router sled / flattening jig</div></div>
+      <div class="tile"><div class="cap">Featured: Table saw sled accessories</div></div>
+      <div class="tile"><div class="cap">Featured: Small-box joinery (splines / dovetails)</div></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">© <span id="y"></span> WoodJiggery • Built in the shop, not a page builder.</div>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
